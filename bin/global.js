@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var cli = require('../lib/index.js');
+
+cli.generate();

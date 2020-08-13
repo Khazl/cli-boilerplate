@@ -1,0 +1,33 @@
+{
+  "name": "@khazl/cli-boilerplate",
+  "version": "1.0.5",
+  "description": "boilerplate for node cli tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node lib/index.js"
+  },
+  "bin": {
+    "ssg-generate": "./bin/global.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Guido Gasper",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khazl/cli-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Khazl/cli-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Khazl/cli-boilerplate#readme"
+}
