@@ -8,7 +8,7 @@
     "generate": "node lib/index.js"
   },
   "bin": {
-    "ssg-generate": "./bin/global.js"
+    "cli-boilerplate-generate": "./bin/global.js"
   },
   "keywords": [
     "cli"
